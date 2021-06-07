@@ -95,18 +95,24 @@ body{
 
         /*==Meals page Menu==*/
 
-.meal-list a {
-    text-decoration: none;    
+
+.meals{
+    text-decoration: none
+}
+.meal-list a{
+    text-decoration: none;
 }
 
 .meal-list-item{
     border: 5px solid black;
-    margin: 10px;    
+    margin: 20px; 
+    
 }
 
-.meal-list-item h1 {
+.meal-list-item h1{
     font-weight: bold;
     font-size: 25px;
+    font-style: italic;
     color: black;
     padding-left: 10px;
 }
@@ -116,6 +122,7 @@ body{
     color: #4d4d4d;
     margin-top: -7px;
     padding-left: 10px;
+   
 } 
 .meal-list-item i{
     float: right;
